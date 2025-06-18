@@ -21,7 +21,6 @@ Both algorithms generate phylogenetic trees based on a given distance matrix, en
 ```
 phylo-tree/
 ├── main.ipynb                # Main notebook for execution
-├── utils.py                  # Helper functions (if needed for separation)
 ├── requirements.txt
 ├── README.md
 └── .gitignore
