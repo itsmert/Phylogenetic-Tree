@@ -17,12 +17,15 @@ Both algorithms generate phylogenetic trees based on a given distance matrix, en
 - Clean visualization with `networkx` and `matplotlib`
 
 ## Project Structure
+
+```
 phylo-tree/
-├── main.ipynb # Main notebook for execution
-├── utils.py # Helper functions (if needed for separation)
+├── main.ipynb                # Main notebook for execution
+├── utils.py                  # Helper functions (if needed for separation)
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## Dependencies
 
@@ -30,32 +33,30 @@ Make sure you have Python 3.8+ installed. You can install the necessary dependen
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## How to Run
-Open the notebook main.ipynb.
 
-Provide your distance matrix in the appropriate format (square symmetric matrix with headers).
+1. Open the notebook `main.ipynb`.
+2. Provide your distance matrix in the appropriate format (square symmetric matrix with headers).
+3. Run the cells to generate the UPGMA and Neighbor Joining trees.
 
-Run the cells to generate the UPGMA and Neighbor Joining trees.
+## Example Input
 
-
-Example Input
-
+```
     A   B   C   D
 A   0   5   9   9
 B   5   0  10  10
 C   9  10   0   8
 D   9  10   8   0
+```
 
+## Output
 
-Output
-Distance calculations at each step
+- Distance calculations at each step
+- Final tree structure printed
+- Graphical display of the resulting tree
 
-Final tree structure printed
+## License
 
-Graphical display of the resulting tree
-
-License
 This project is open source and distributed under the MIT License.
-
